@@ -1,0 +1,50 @@
+
+
+.modal-content {
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.input-label {
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+.error-message {
+    color: red; 
+    font-size: 12px; 
+}
+
+
+.modal-content::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background-color: #000; 
+    border-radius: 8px; 
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Firefox */
+.modal-content {
+    scrollbar-width: thin; 
+    scrollbar-color:  #aaa6a6 transparent; 
+}
